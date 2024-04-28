@@ -60,6 +60,11 @@ export const skills = [
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXINmSjDGTaYctYQUNVrOzozLmfT6NDv1f0P5OZwdQlw&s",
       },
+      {
+        name: "Tailwind",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTDe6916ADYi6iUwMR0Tx1W9rjEkxsUCwXPE3jQsKZDA&s",
+      },
     ],
   },
   {
@@ -169,6 +174,43 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Youtube Clone",
+    date: "Apr 2024",
+    description:
+      "This project is a YouTube clone developed using React.js, offering a comprehensive video watching experience. Users can seamlessly browse through a vast collection of videos, search by tags or keywords, and navigate using intuitive buttons. To enhance search functionality and optimize performance, debouncing techniques have been implemented. Additionally, the project leverages Redux Toolkit and React Redux for state management, ensuring efficient data storage and retrieval. With its user-friendly interface and robust features, this YouTube clone promises to deliver an immersive video streaming experience akin to the original platform.",
+    image: "/assets/Youtube.PNG",
+    tags: ["React JS", "Axios", "Javascript", "Reduxjs", "Redux Toolkit"],
+    github: "https://github.com/Mujahid-h/Youtube-clone.git",
+    webapp: "https://youtube-93afioc0j-mujahid-hussains-projects.vercel.app",
+  },
+
+  {
+    id: 1,
+    title: "Point of Sale (POS) System",
+    date: "Dec 2023",
+    description:
+      "The Point of Sale (POS) System is a dynamic MERN stack application tailored for efficient retail management. It empowers users to effortlessly handle inventory tasks such as item addition, removal, and category-based searching. With intuitive transaction management, users can swiftly process purchases and adjust item quantities, facilitated by a user-friendly cart interface. Automated invoice generation simplifies billing, while robust MongoDB and Axios integration ensures secure data handling. In essence, the POS System provides a seamless solution for retailers to optimize operations and elevate customer service.",
+    image: "/assets/POS.PNG",
+    tags: ["React JS", "Axios", "Javascript", "Express JS", "Node Js"],
+    github: "https://github.com/Mujahid-h/Point-of-Sale.git",
+    webapp: "",
+  },
+
+  {
+    id: 2,
+    title: "Crypto App",
+    date: "Sep 2022- Nov 2022",
+    description:
+      " A sleek cryptocurrency price tracker offering real-time updates, intuitive charts, and portfolio management. Features include price alerts, historical data analysis, and a user-friendly interface with dark mode. Stay informed with news integration and enjoy a secure, responsive design across devices.",
+    image: "/assets/Crypto.png",
+
+    tags: ["React Js", "Chakra UI", "Front End", "Redux"],
+    github: "https://github.com/Mujahid-h/Crypto-App.git",
+    webapp: "https://crypto-app-two-xi.vercel.app/",
+  },
+
+  {
+    id: 3,
     title: "Ecommerce",
     date: "Jun 2022 - July 2022",
     description:
@@ -180,20 +222,28 @@ export const projects = [
     github: "https://github.com/Mujahid-h/E-commerce.git",
     webapp: "https://e-commerce-two-hazel.vercel.app/",
   },
-  {
-    id: 9,
-    title: "Crypto App",
-    date: "Sep 2022- Nov 2022",
-    description:
-      " A sleek cryptocurrency price tracker offering real-time updates, intuitive charts, and portfolio management. Features include price alerts, historical data analysis, and a user-friendly interface with dark mode. Stay informed with news integration and enjoy a secure, responsive design across devices.",
-    image: "/assets/Crypto.png",
 
-    tags: ["React Js", "Chakra UI", "Front End", "Redux"],
-    github: "https://github.com/Mujahid-h/Crypto-App.git",
-    webapp: "https://crypto-app-two-xi.vercel.app/",
-  },
   {
-    id: 1,
+    id: 4,
+    title: "WhatsApp Clone",
+    date: "Oct 2023 - Nov 2023",
+    description:
+      "The WhatsApp Clone is a MERN stack application enabling users to seamlessly communicate through real-time chat functionalities. Utilizing Google account integration for streamlined access, users can create, search, and engage in chats effortlessly. Leveraging Socket.IO, the platform facilitates live message exchange, enhancing the interactive experience. With MongoDB, Express, React, and Node.js at its core, the WhatsApp Clone delivers a robust solution for dynamic and intuitive communication, reminiscent of the original WhatsApp experience",
+    image: "/assets/Whatsapp.PNG",
+    tags: [
+      "React JS",
+      "Axios",
+      "Javascript",
+      "Express JS",
+      "Node Js",
+      "Socket.io",
+    ],
+    github: "https://github.com/Mujahid-h/whatsapp-clone.git",
+    webapp: "",
+  },
+
+  {
+    id: 5,
     title: "Video Hub",
     date: "Nov 2022 - Jan 2023",
     description:
@@ -210,8 +260,21 @@ export const projects = [
     github: "https://github.com/Mujahid-h/Video-Hub.git",
     webapp: "https://video-hub-three.vercel.app/",
   },
+
   {
-    id: 2,
+    id: 6,
+    title: "Live Meeting App",
+    date: "March 2024",
+    description:
+      "This project is a video meeting application built using React.js, powered by the ZegoCloud API. The app offers a seamless video conferencing experience, enabling users to host meetings, share their screens, and manage audio and video settings such as muting and unmuting. Before joining a meeting, users are prompted to grant necessary permissions, ensuring smooth and secure communication. Additionally, the app provides functionality to generate shareable links, allowing users to easily invite others to join meetings. With its intuitive interface and robust features, this video meeting app facilitates efficient collaboration and communication for remote teams and individuals.",
+    image: "/assets/Meeting.PNG",
+    tags: ["React JS", "Axios", "Javascript", "ZegoCloud"],
+    github: "https://github.com/Mujahid-h/videoCallApp.git",
+    webapp: "https://video-call-app-bay.vercel.app/",
+  },
+
+  {
+    id: 7,
     title: "Shopping Cart",
     date: "Feb 2023 - Mar 2023",
     description:
@@ -221,8 +284,9 @@ export const projects = [
     github: "https://github.com/Mujahid-h/React-Cart.git",
     webapp: "https://react-cart-fawn.vercel.app/",
   },
+
   {
-    id: 3,
+    id: 8,
     title: "Portfolio",
     date: "Apr 2023 - July, 2023",
     description:
@@ -232,8 +296,9 @@ export const projects = [
     github: "https://github.com/Mujahid-h/portfolio.git",
     webapp: "https://mujahid-portfolio.vercel.app/",
   },
+
   {
-    id: 10,
+    id: 9,
     title: "Random Quote Generator",
     date: "Aug 2023",
     description:
@@ -243,9 +308,10 @@ export const projects = [
     github: "https://github.com/Mujahid-h/RandomQuote.git",
     webapp: "https://random-quote-generator-two-pi.vercel.app/",
   },
+
   {
-    id: 4,
-    title: " Daily GOals",
+    id: 10,
+    title: " Daily Goals",
     date: "Feb 2023",
     description:
       "Empower your daily routine with a Goal Tracker web application. Seamlessly set and monitor your daily objectives, providing a structured approach to your tasks. Users can effortlessly create, manage, and mark goals as complete, fostering productivity and accomplishment. Stay organized and motivated as you conquer your daily milestones with this user-friendly and efficient goal-tracking solution. Elevate your daily routine and celebrate your achievements, making progress a visible and rewarding journey.      ",
@@ -255,8 +321,9 @@ export const projects = [
     github: "https://github.com/Mujahid-h/Daily-Goals.git",
     webapp: "https://daily-goals-gamma.vercel.app/",
   },
+
   {
-    id: 5,
+    id: 11,
     title: "A Mini Piano and Guitar",
     date: "Sep 2023",
     description:
@@ -266,8 +333,9 @@ export const projects = [
     github: "https://github.com/Mujahid-h/A-mini-Piano-and-Guitar.git",
     webapp: "https://a-mini-piano-and-guitar.vercel.app/",
   },
+
   {
-    id: 6,
+    id: 12,
     title: "MarkDown Peviewer",
     date: "Sep 2023",
     description:
@@ -277,17 +345,6 @@ export const projects = [
     tags: ["React Js", "API", "Axios", "react-markdown"],
     github: "https://github.com/Mujahid-h/Markdown-Previewer.git",
     webapp: "https://markdown-previewer-woad-xi.vercel.app/#",
-  },
-  {
-    id: 7,
-    title: "Netflix Clone",
-    date: "Sep 2022",
-    description:
-      "Immerse yourself in the Netflix experience with this user-friendly replica. Seamlessly browse, search, and preview movies and TV shows. Create a personalized watchlist, enjoy responsive design, and watch trailers before diving into the content. Explore a vast library, all within a sleek and familiar interface. Note: This project is a UI replica and does not provide actual streaming functionality.",
-    image: "/assets/Netflix.png",
-    tags: ["React JS", "Axios", "Javascript"],
-    github: "https://github.com/Mujahid-h/Netflix-Clown.git",
-    webapp: "https://netflix-clown.vercel.app/",
   },
 ];
 
