@@ -4,6 +4,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { Bio } from "../../data/constants";
 import { Avatar } from "@mui/material";
+import HeroImage from "../../assets/HeroImage.jpg";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -100,8 +101,8 @@ function Footer() {
           Mujahid Hussain
           <AvatarContainer>
             <Avatar
-              src="/assets/HeroImage.jpg"
-              alt="Your Name"
+              src={HeroImage}
+              alt="Mujahid"
               sx={{
                 width: 80,
                 height: 80,

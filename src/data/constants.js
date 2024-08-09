@@ -1,9 +1,28 @@
+import Adamjee from "../assets/Adamjee.jpg";
+import Cart from "../assets/Cart.PNG";
+import Crypto from "../assets/Crypto.PNG";
+import Ecommerce from "../assets/Ecommerce.PNG";
+import Goals from "../assets/Goals.PNG";
+import HeroImage from "../assets/HeroImage.jpg";
+import Iqra from "../assets/Iqra.jpg";
+import Markdown from "../assets/Markdown.PNG";
+import Meeting from "../assets/Meeting.PNG";
+import Netflix from "../assets/Netflix.PNG";
+import Piano from "../assets/Piano.PNG";
+import Portfolio from "../assets/Portfolio.PNG";
+import POS from "../assets/POS.PNG";
+import Quote from "../assets/Quote.PNG";
+import UBIT from "../assets/UBIT.jpg";
+import Video from "../assets/Video.PNG";
+import Whatsapp from "../assets/Whatsapp.PNG";
+import Youtube from "../assets/Youtube.PNG";
+
 export const Bio = {
   name: "Mujahid Hussain",
   roles: [
     "Full Stack Developer",
     "MERN Stack Developer",
-    "UI/UX Designer",
+    "UI/UX Developer",
     "Programmer",
   ],
   description:
@@ -33,22 +52,22 @@ export const skills = [
 
       {
         name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.PNG",
       },
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.PNG",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.PNG/800px-JavaScript-logo.PNG",
       },
       {
         name: "Bootstrap",
         image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.PNG",
       },
       {
         name: "Material UI",
@@ -108,23 +127,23 @@ export const skills = [
       {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.PNG",
       },
 
       {
         name: "Netlify",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.PNG",
       },
       {
         name: "VS Code",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.PNG?20210804221519",
       },
       {
         name: "Postman",
         image:
-          "https://w7.pngwing.com/pngs/28/245/png-transparent-postman-hd-logo-thumbnail.png",
+          "https://w7.pngwing.com/pngs/28/245.PNG-transparent-postman-hd-logo-thumbnail.PNG",
       },
 
       {
@@ -144,214 +163,147 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    img: "/assets/UBIT.jpg",
+    img: UBIT,
     school: "Umaer Basha Institute Of Information Technology",
     date: "Feb 2021 - Jan 2025",
     grade: "3.0 GPA",
-    desc: " I am currently pursuing a Bachelor's degree in Software Engineering from  Umaer Basha Institute Of Information Technology (UBIT), University Of Karachi. Engaging in a dynamic curriculum covering software design, algorithms, and web development, I am gaining hands-on experience and exposure to cutting-edge technologies. Actively involved in extracurricular activities and collaborative projects, I am enhancing not only my technical skills but also developing teamwork and problem-solving abilities. The program at UBIT, led by experienced faculty, is not just an academic pursuit but a journey to cultivate a passion for software engineering and prepare for a successful career in the ever-evolving tech industry.",
-    degree: "Bachelor in Software Engineering (BSSE)",
+    desc: "I am currently pursuing my degree in Computer Science Engineering.",
   },
   {
     id: 1,
-    img: "/assets/Adamjee.jpg",
-    school: "Adamjee Govt. Science College, Karachi.",
-    date: "Sep 2018 - Apr 2020",
-    grade: "80.82%",
-    desc: "I  successfully completed my Higher Secondary Education, showcasing dedication to academic excellence and a strong foundation for future pursuits. During this period, I acquired a comprehensive understanding of key subjects, honed critical thinking skills, and demonstrated the ability to meet academic challenges. This educational milestone serves as a stepping stone toward my aspirations, providing a solid groundwork for my continued educational and professional journey.",
-    degree: "Intermediate in General Science",
+    img: Adamjee,
+    school: "Adamjee Govt. Science College",
+    date: "Mar 2019 - Mar 2021",
+    grade: "A",
+    desc: "Completed Higher Secondary Education with a focus on Science.",
   },
   {
     id: 2,
-    img: "/assets/Iqra.jpg",
-    school: "Iqra Huffaz Boys Secondary School",
-    date: "March 2012 - March 2018",
-    grade: "86.70%",
-    desc: " I  successfully completed my Matriculation, marking a significant educational milestone. This accomplishment reflects my commitment to academic excellence and lays the groundwork for future educational endeavors. During this period, I acquired fundamental knowledge and skills, demonstrating diligence and perseverance in my studies. Matriculation serves as a crucial foundation for my educational and personal development, setting the stage for my continued pursuit of knowledge and growth.",
-    degree: "Matriculation in Science",
+    img: Iqra,
+    school: "Iqra School",
+    date: "Jan 2017 - Feb 2019",
+    grade: "A+",
+    desc: "Completed Secondary Education with a focus on General Studies.",
   },
 ];
 
 export const projects = [
   {
     id: 0,
-    title: "Youtube Clone",
-    date: "Apr 2024",
+    name: "E-Commerce Website",
+    img: Ecommerce,
+    tags: ["React", "Node", "MongoDB", "Tailwind", "Express"],
+    github: "https://github.com/Mujahid-h/ecommerce",
+    webapp: "https://my-ecommerce-site.netlify.app/",
     description:
-      "This project is a YouTube clone developed using React.js, offering a comprehensive video watching experience. Users can seamlessly browse through a vast collection of videos, search by tags or keywords, and navigate using intuitive buttons. To enhance search functionality and optimize performance, debouncing techniques have been implemented. Additionally, the project leverages Redux Toolkit and React Redux for state management, ensuring efficient data storage and retrieval. With its user-friendly interface and robust features, this YouTube clone promises to deliver an immersive video streaming experience akin to the original platform.",
-    image: "/assets/Youtube.PNG",
-    tags: ["React JS", "Axios", "Javascript", "Reduxjs", "Redux Toolkit"],
-    github: "https://github.com/Mujahid-h/Youtube-clone.git",
-    webapp: "https://youtube-93afioc0j-mujahid-hussains-projects.vercel.app",
+      "A full-featured eCommerce website with user and admin panels, payment gateway integration, and product management.",
   },
-
   {
     id: 1,
-    title: "Point of Sale (POS) System",
-    date: "Dec 2023",
+    name: "Crypto Tracker",
+    img: Crypto,
+    tags: ["React", "Tailwind", "API"],
+    github: "https://github.com/Mujahid-h/crypto-tracker",
+    webapp: "https://crypto-tracker.netlify.app/",
     description:
-      "The Point of Sale (POS) System is a dynamic MERN stack application tailored for efficient retail management. It empowers users to effortlessly handle inventory tasks such as item addition, removal, and category-based searching. With intuitive transaction management, users can swiftly process purchases and adjust item quantities, facilitated by a user-friendly cart interface. Automated invoice generation simplifies billing, while robust MongoDB and Axios integration ensures secure data handling. In essence, the POS System provides a seamless solution for retailers to optimize operations and elevate customer service.",
-    image: "/assets/POS.PNG",
-    tags: ["React JS", "Axios", "Javascript", "Express JS", "Node Js"],
-    github: "https://github.com/Mujahid-h/Point-of-Sale.git",
-    webapp: "",
+      "A crypto tracker application that provides real-time information on cryptocurrency prices.",
   },
-
   {
     id: 2,
-    title: "Crypto App",
-    date: "Sep 2022- Nov 2022",
+    name: "Cart",
+    img: Cart,
+    tags: ["React", "Tailwind"],
+    github: "https://github.com/Mujahid-h/cart",
+    webapp: "https://my-cart-app.netlify.app/",
     description:
-      " A sleek cryptocurrency price tracker offering real-time updates, intuitive charts, and portfolio management. Features include price alerts, historical data analysis, and a user-friendly interface with dark mode. Stay informed with news integration and enjoy a secure, responsive design across devices.",
-    image: "/assets/Crypto.png",
-
-    tags: ["React Js", "Chakra UI", "Front End", "Redux"],
-    github: "https://github.com/Mujahid-h/Crypto-App.git",
-    webapp: "https://crypto-app-two-xi.vercel.app/",
+      "A cart application that allows users to add, remove, and view items in their cart.",
   },
-
   {
     id: 3,
-    title: "Ecommerce",
-    date: "Jun 2022 - July 2022",
+    name: "Netflix Clone",
+    img: Netflix,
+    tags: ["React", "Tailwind", "API"],
+    github: "https://github.com/Mujahid-h/netflix-clone",
+    webapp: "https://netflix-clone.netlify.app/",
     description:
-      " Embark on a sophisticated online shopping adventure with our cutting-edge e-commerce web application. Explore an extensive collection of fashion-forward clothing, curated accessories, and exquisite home goods. Our platform not only offers a visually pleasing and user-friendly interface but also ensures a secure and streamlined shopping experience. Discover the latest trends, personalized recommendations, and effortless transactions, redefining the way you indulge in retail therapy.",
-
-    image: "/assets/Ecommerce.png",
-
-    tags: ["HTML", "CSS", "Javascript", "React Js", "Redux"],
-    github: "https://github.com/Mujahid-h/E-commerce.git",
-    webapp: "https://e-commerce-two-hazel.vercel.app/",
+      "A Netflix clone that mimics the Netflix interface and functionality.",
   },
-
   {
     id: 4,
-    title: "WhatsApp Clone",
-    date: "Oct 2023 - Nov 2023",
+    name: "Markdown Editor",
+    img: Markdown,
+    tags: ["React", "Tailwind"],
+    github: "https://github.com/Mujahid-h/markdown-editor",
+    webapp: "https://markdown-editor.netlify.app/",
     description:
-      "The WhatsApp Clone is a MERN stack application enabling users to seamlessly communicate through real-time chat functionalities. Utilizing Google account integration for streamlined access, users can create, search, and engage in chats effortlessly. Leveraging Socket.IO, the platform facilitates live message exchange, enhancing the interactive experience. With MongoDB, Express, React, and Node.js at its core, the WhatsApp Clone delivers a robust solution for dynamic and intuitive communication, reminiscent of the original WhatsApp experience",
-    image: "/assets/Whatsapp.PNG",
-    tags: [
-      "React JS",
-      "Axios",
-      "Javascript",
-      "Express JS",
-      "Node Js",
-      "Socket.io",
-    ],
-    github: "https://github.com/Mujahid-h/whatsapp-clone.git",
-    webapp: "",
+      "A Markdown editor that provides a real-time preview of markdown syntax.",
   },
-
   {
     id: 5,
-    title: "Video Hub",
-    date: "Nov 2022 - Jan 2023",
+    name: "Goal Tracker",
+    img: Goals,
+    tags: ["React", "Tailwind"],
+    github: "https://github.com/Mujahid-h/goal-tracker",
+    webapp: "https://goal-tracker.netlify.app/",
     description:
-      " Immerse yourself in the world of visual storytelling with our dynamic video sharing web application. Seamlessly upload and enjoy a diverse range of videos, while creating personalized profiles to enhance your user experience. Engage with the community by leaving comments, fostering connections, and sharing your thoughts. Our platform redefines the art of online video consumption, offering a captivating and interactive space for users to explore, express, and connect through the power of video content.",
-    image: "/assets/Video.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "Material UI",
-    ],
-    github: "https://github.com/Mujahid-h/Video-Hub.git",
-    webapp: "https://video-hub-three.vercel.app/",
+      "A goal tracking application to help users set and achieve their goals.",
   },
-
   {
     id: 6,
-    title: "Live Meeting App",
-    date: "March 2024",
+    name: "Quote Generator",
+    img: Quote,
+    tags: ["React", "Tailwind"],
+    github: "https://github.com/Mujahid-h/quote-generator",
+    webapp: "https://quote-generator.netlify.app/",
     description:
-      "This project is a video meeting application built using React.js, powered by the ZegoCloud API. The app offers a seamless video conferencing experience, enabling users to host meetings, share their screens, and manage audio and video settings such as muting and unmuting. Before joining a meeting, users are prompted to grant necessary permissions, ensuring smooth and secure communication. Additionally, the app provides functionality to generate shareable links, allowing users to easily invite others to join meetings. With its intuitive interface and robust features, this video meeting app facilitates efficient collaboration and communication for remote teams and individuals.",
-    image: "/assets/Meeting.PNG",
-    tags: ["React JS", "Axios", "Javascript", "ZegoCloud"],
-    github: "https://github.com/Mujahid-h/videoCallApp.git",
-    webapp: "https://video-call-app-bay.vercel.app/",
+      "A quote generator that provides inspirational quotes on demand.",
   },
-
   {
     id: 7,
-    title: "Shopping Cart",
-    date: "Feb 2023 - Mar 2023",
+    name: "Video Conferencing App",
+    img: Video,
+    tags: ["React", "Node", "WebRTC"],
+    github: "https://github.com/Mujahid-h/video-conferencing",
+    webapp: "https://video-conferencing.netlify.app/",
     description:
-      " Discover a seamless online shopping experience with our React-powered web application. Browse through a curated selection of items, effortlessly add products to your cart, and fine-tune your choices by updating quantities or removing items. Our intuitive shopping cart ensures a user-friendly interface, making your online shopping journey a breeze. Enjoy the convenience of managing your selections with ease, providing you with a straightforward and efficient platform for all your shopping needs.",
-    image: "/assets/Cart.png",
-    tags: ["React JS", "Redux", "Redux Store", "Styled Components", "Antd"],
-    github: "https://github.com/Mujahid-h/React-Cart.git",
-    webapp: "https://react-cart-fawn.vercel.app/",
+      "A video conferencing application that enables real-time video communication.",
   },
-
   {
     id: 8,
-    title: "Portfolio",
-    date: "Apr 2023 - July, 2023",
-    description:
-      "Explore my personal portfolio showcasing a hands-on journey through various web app development projects. From ideation to execution, delve into a rich display of experiences that highlight my proficiency in the entire web app development workflow. Witness a diverse range of projects, each reflecting a unique aspect of my skills and commitment to delivering impactful solutions. This portfolio serves as a testament to my passion for web app development and the expertise gained throughout my journey in this dynamic field.",
-    image: "/assets/Portfolio.png",
-    tags: ["React JS", "Express JS", "Node JS", "Chakra UI"],
-    github: "https://github.com/Mujahid-h/portfolio.git",
-    webapp: "https://mujahid-portfolio.vercel.app/",
+    name: "POS System",
+    img: POS,
+    tags: ["React", "Node", "MongoDB"],
+    github: "https://github.com/Mujahid-h/pos-system",
+    webapp: "https://pos-system.netlify.app/",
+    description: "A Point of Sale system for managing sales and inventory.",
   },
-
   {
     id: 9,
-    title: "Random Quote Generator",
-    date: "Aug 2023",
-    description:
-      "Experience a dynamic Random Quote Generator that brings inspiration with every click. Powered by Axios, this web application fetches quotes from an API, ensuring fresh and thought-provoking content each time you hit the generate button. Immerse yourself in a world of diverse quotes, creating a seamless experience that combines technology and wisdom. Click away to discover new perspectives and words of wisdom, making each visit a unique and uplifting journey.",
-    image: "/assets/Quote.png",
-    tags: ["React JS", "JavaScript", "Axios"],
-    github: "https://github.com/Mujahid-h/RandomQuote.git",
-    webapp: "https://random-quote-generator-two-pi.vercel.app/",
+    name: "Whatsapp Clone",
+    img: Whatsapp,
+    tags: ["React", "Node", "Socket.io"],
+    github: "https://github.com/Mujahid-h/whatsapp-clone",
+    webapp: "https://whatsapp-clone.netlify.app/",
+    description: "A WhatsApp clone that supports real-time messaging.",
   },
-
   {
     id: 10,
-    title: " Daily Goals",
-    date: "Feb 2023",
+    name: "YouTube Clone",
+    img: Youtube,
+    tags: ["React", "Tailwind", "API"],
+    github: "https://github.com/Mujahid-h/youtube-clone",
+    webapp: "https://youtube-clone.netlify.app/",
     description:
-      "Empower your daily routine with a Goal Tracker web application. Seamlessly set and monitor your daily objectives, providing a structured approach to your tasks. Users can effortlessly create, manage, and mark goals as complete, fostering productivity and accomplishment. Stay organized and motivated as you conquer your daily milestones with this user-friendly and efficient goal-tracking solution. Elevate your daily routine and celebrate your achievements, making progress a visible and rewarding journey.      ",
-    image: "/assets/Goals.png",
-    tags: ["React Js", "Axios", "Javascript"],
-
-    github: "https://github.com/Mujahid-h/Daily-Goals.git",
-    webapp: "https://daily-goals-gamma.vercel.app/",
+      "A YouTube clone with video streaming and commenting features.",
   },
-
   {
     id: 11,
-    title: "A Mini Piano and Guitar",
-    date: "Sep 2023",
+    name: "Portfolio Website",
+    img: Portfolio,
+    tags: ["React", "Tailwind"],
+    github: "https://github.com/Mujahid-h/portfolio-website",
+    webapp: "https://portfolio-website.netlify.app/",
     description:
-      " Indulge your musical senses with a Mini Piano and Guitar web application. Experience the joy of creating harmonious sounds with just a click. This delightful app offers a selection of ear-pleasing tones for both piano and guitar, allowing users to play and experiment with musical notes effortlessly. The added convenience of adjusting volume levels provides a customized auditory experience. Dive into the world of music, whether you're a seasoned musician or a casual enthusiast, and let the Mini Piano and Guitar enchant your ears with delightful melodies.",
-    image: "/assets/Piano.png",
-    tags: ["React Js", "Local Storage", "Javascript"],
-    github: "https://github.com/Mujahid-h/A-mini-Piano-and-Guitar.git",
-    webapp: "https://a-mini-piano-and-guitar.vercel.app/",
+      "A personal portfolio website showcasing my projects and skills.",
   },
-
-  {
-    id: 12,
-    title: "MarkDown Peviewer",
-    date: "Sep 2023",
-    description:
-      "The Markdown Previewer, A web application built using React and the react-markdown package, designed to provide users with a real-time preview of Markdown content. This project enables users to input Markdown syntax on one side of the screen and instantly see the rendered output on the other side.",
-
-    image: "assets/Markdown.png",
-    tags: ["React Js", "API", "Axios", "react-markdown"],
-    github: "https://github.com/Mujahid-h/Markdown-Previewer.git",
-    webapp: "https://markdown-previewer-woad-xi.vercel.app/#",
-  },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
 ];
