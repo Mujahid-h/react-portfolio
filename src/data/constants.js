@@ -29,7 +29,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Mujahid-h",
   resume:
-    "https://drive.google.com/file/d/1spzn4IBPoIkJ_gtclEinbEnvUmdyxQJk/view?usp=sharing",
+    "https://drive.google.com/file/d/1eMCd4fWttIB541Tamj-yBcXYJTpDOcZP/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/mujahid-hussain-4b3b84254/",
   insta: "https://www.instagram.com/h_mujahid123/",
   facebook: "https://www.facebook.com/profile.php?id=100010197427787",
