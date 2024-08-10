@@ -14,6 +14,7 @@ import UBIT from "../assets/UBIT.jpg";
 import Video from "../assets/Video.jpg";
 import Whatsapp from "../assets/Whatsapp.jpg";
 import Youtube from "../assets/Youtube.jpg";
+import Chat from "../assets/Chat.jpg";
 
 export const Bio = {
   name: "Mujahid Hussain",
@@ -191,6 +192,26 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Real Time Chat application",
+    date: "June 2024 -  July 2024",
+    description:
+      "The Real-Time Chat Application is a dynamic platform that allows users to log in, log out, and exchange messages instantly. Built with the MERN stack (MongoDB, Express, React, Node.js) and enhanced with Socket.IO for real-time communication, this app provides a seamless and engaging chat experience. Users can securely access the application, and messages are delivered and received in real-time, ensuring lively and immediate interactions. The application’s frontend is designed with React for a responsive user interface, while the backend is managed by Node.js and Express, with MongoDB handling user data and message storage.      ",
+    image: Chat,
+    tags: [
+      "React JS",
+      "Axios",
+      "Javascript",
+      "Reduxjs",
+      "Redux Toolkit",
+      "Axios",
+      "Socket.io",
+    ],
+    github: "https://github.com/Mujahid-h/one-to-one-chat-app.git",
+    webapp: "",
+  },
+
+  {
+    id: 1,
     title: "Youtube Clone",
     date: "Apr 2024",
     description:
@@ -202,7 +223,7 @@ export const projects = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: "Point of Sale (POS) System",
     date: "Dec 2023",
     description:
@@ -214,7 +235,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Crypto App",
     date: "Sep 2022- Nov 2022",
     description:
@@ -227,7 +248,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Ecommerce",
     date: "Jun 2022 - July 2022",
     description:
@@ -241,7 +262,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "WhatsApp Clone",
     date: "Oct 2023 - Nov 2023",
     description:
@@ -260,7 +281,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Video Hub",
     date: "Nov 2022 - Jan 2023",
     description:
@@ -279,7 +300,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Live Meeting App",
     date: "March 2024",
     description:
@@ -291,7 +312,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Shopping Cart",
     date: "Feb 2023 - Mar 2023",
     description:
@@ -303,7 +324,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Portfolio",
     date: "Apr 2023 - July, 2023",
     description:
@@ -315,7 +336,7 @@ export const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
     title: "Random Quote Generator",
     date: "Aug 2023",
     description:
@@ -327,7 +348,7 @@ export const projects = [
   },
 
   {
-    id: 10,
+    id: 11,
     title: " Daily Goals",
     date: "Feb 2023",
     description:
@@ -340,7 +361,7 @@ export const projects = [
   },
 
   {
-    id: 11,
+    id: 12,
     title: "A Mini Piano and Guitar",
     date: "Sep 2023",
     description:
@@ -352,7 +373,7 @@ export const projects = [
   },
 
   {
-    id: 12,
+    id: 13,
     title: "MarkDown Peviewer",
     date: "Sep 2023",
     description:
