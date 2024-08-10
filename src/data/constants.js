@@ -51,7 +51,8 @@ export const skills = [
 
       {
         name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.jpg",
+        image:
+          "https://e7.pngegg.com/pngimages/780/934/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png",
       },
       {
         name: "CSS",
@@ -61,12 +62,12 @@ export const skills = [
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.jpg/800px-JavaScript-logo.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeTWiFIaZNIFsCerMBHt-gm1Ub4irbeUWjfw&s",
       },
       {
         name: "Bootstrap",
         image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.jpg",
+          "https://e7.pngegg.com/pngimages/162/309/png-clipart-bootstrap-responsive-web-design-web-development-logo-django-others-miscellaneous-purple-thumbnail.png",
       },
       {
         name: "Material UI",
@@ -126,13 +127,13 @@ export const skills = [
       {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.jpg",
+          "https://w7.pngwing.com/pngs/646/324/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png",
       },
 
       {
         name: "Netlify",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.jpg",
+          "https://w7.pngwing.com/pngs/80/196/png-transparent-netlify-hd-logo.png",
       },
       {
         name: "VS Code",
@@ -142,7 +143,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://w7.pngwing.com/pngs/28/245.jpg-transparent-postman-hd-logo-thumbnail.jpg",
+          "https://w7.pngwing.com/pngs/28/245/png-transparent-postman-hd-logo-thumbnail.png",
       },
 
       {
